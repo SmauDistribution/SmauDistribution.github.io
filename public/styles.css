@@ -21804,6 +21804,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-niconne {
+  font-family: 'Niconne', cursive;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -52351,6 +52355,10 @@ body {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-niconne {
+    font-family: 'Niconne', cursive;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -82520,6 +82528,10 @@ body {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-niconne {
+    font-family: 'Niconne', cursive;
   }
 
   .md\:text-xs {
@@ -112693,6 +112705,10 @@ body {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-niconne {
+    font-family: 'Niconne', cursive;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -142864,6 +142880,10 @@ body {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-niconne {
+    font-family: 'Niconne', cursive;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -173033,6 +173053,10 @@ body {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-niconne {
+    font-family: 'Niconne', cursive;
   }
 
   .\32xl\:text-xs {
