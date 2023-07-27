@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-gradient: linear-gradient(
+        45deg,
+        #fd49a0,
+        #a16ae8,
+        #603f8b,
+        #a16ae8,
+        #fd49a0
+    );
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: var(--bg-gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400%;
+    backdrop-filter: blur(80px);
+    animation: bg-animation 120s infinite alternate;
+    height: 100%;
+    color: white;
+}
+
+@keyframes bg-animation {
+    0% { background-position: 0%; }
+    100% { background-position: 100% }
+}
