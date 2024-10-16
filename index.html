@@ -4,28 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmauDistribution</title>
-    <link href="public/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>SmauDistribution</title>
 </head>
-<body>
-    <nav class="absolute flex flex-row sm:justify-between justify-center w-full p-4 pl-8 pr-8 items-center">
-        <h1 class="font-niconne hidden text-4xl sm:block">SmauDistribution</h1>
-        <ul class="flex flex-row gap-5 sm:gap-3">
-            <li><a target="_blank" href="https://www.linkedin.com/in/daniel-smau-672925217/"><img src="./public/svg/linkedin.svg" width="24" height="24" alt="linkedin link" /></a></li>
-            <li><a target="_blank" href="https://github.com/SmauDistribution"><img src="./public/svg/github.svg" width="24" height="24" alt="github link" /></a></li>
-        </ul>
-    </nav>
-    <div class="flex items-center justify-center w-full h-full">
-        <div class="flex flex-col gap-6 items-center">
-            <h1 class="font-niconne text-8xl hidden sm:block">SmauDistribution</h1>
-            <div class="text-center">
-                <h1 class="font-niconne text-6xl block sm:hidden">Smau</h1>
-                <h1 class="font-niconne text-6xl block sm:hidden">Distribution</h1>
-            </div>
-            <a href="https://github.com/SmauDistribution" class="bg-white font-serif text-xl p-2 bg-opacity-40 pl-4 pr-4 backdrop-blur-xl rounded-full transition-shadow duration-300 ease-in-out hover:shadow-md">See projects</a>
+<style>
+    .the_message {
+        font-family: "Nunito Sans", sans-serif;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .the_message p {
+        font-size: 18px;
+        text-align: left;
+        width: 400px;
+    }
+
+    /* .the_message .action {
+        padding-top: 24px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .the_message .action a {
+        font-size: 20px;
+        color: #a3a3a3;
+        font-weight: 600;
+        transition: 2s;
+    }
+
+    .the_message .action a:hover {
+        color: whitesmoke;
+    } */
+
+    .the_message .action {
+        display: flex;
+        justify-content: right;
+    }
+
+    .the_message .action a {
+        margin-top: 24px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        padding: 8px 18px;
+        border-radius:9999px;
+        border-color: white;
+        border-style: solid;
+        border-width: 2px;
+        font-weight: 600;
+        transition: 0.4s;
+    }
+
+    .the_message .action a:hover {
+        background-color: white;
+        color: black;
+    }
+</style>
+<body class="the_message">
+    <div>
+        <p>Some things are still unfolding, while others have already reached their conclusion.</p>    
+        <div class="action">
+            <a href="https://github.com/SmauDistribution">See projects</a>
         </div>
     </div>
 </body>
